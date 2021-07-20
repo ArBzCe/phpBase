@@ -21,6 +21,7 @@
     ### object 对象
         $exampleObject = obj (new class{ function fun(){}});
     ### callable 可回调
+    ###
     ### iterable 可迭代
 
     ## 2 种特殊类型
