@@ -21,9 +21,11 @@
     ### object 对象
         $exampleObject = obj (new class{ function fun(){}});
     ### callable 可回调
-    ###
+        function sayGood($say){
+            echo "{$say}";
+        }
+        call_user_func("sayGood","well!");
     ### iterable 可迭代
-
     ## 2 种特殊类型
     ### resource 资源
     ### NULL 无类型
